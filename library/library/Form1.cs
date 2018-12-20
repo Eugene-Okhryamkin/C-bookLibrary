@@ -78,7 +78,7 @@ namespace library
             //Settings.Default.Save();
         }
 
-        private async void Form1_Load(object sender, EventArgs e) //Ассинхронное обновление checkListBox (Просто решил опробовать async/await, как в JS)
+        private async void Form1_Load(object sender, EventArgs e) //Ассинхронное обновление checkListBox 
         {
             string connection = @"Data Source=EUGENE;Initial Catalog=books;Integrated Security=True;Pooling=False";
             SqlConnection cnn = new SqlConnection(connection);
